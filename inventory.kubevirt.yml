@@ -1,10 +1,11 @@
+---
 plugin: redhat.openshift_virtualization.kubevirt
 connections:
   - namespaces:
-    - ansible-demo
+      - ansible-demo
   - create_groups: true
 compose:
   composed_manager: "'Ansible'"
-groups: 
+groups:
   RHEL: vmi_guest_os_info.id == 'rhel'
   Windows: vmi_guest_os_info.id == 'mswindows'

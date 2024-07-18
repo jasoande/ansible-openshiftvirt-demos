@@ -5,6 +5,6 @@
   vars:
     ansible_python_interpreter: /usr/bin/python
   roles:
-  - rsoliman.openshift_virt_demos.openshift_virt_manage_namespace
-  - rsoliman.openshift_virt_demos.openshift_virt_manage_init_script_secret
-  - rsoliman.openshift_virt_demos.openshift_virt_manage_vm_template
+    - rsoliman.openshift_virt_demos.openshift_virt_manage_namespace
+    - rsoliman.openshift_virt_demos.openshift_virt_manage_init_script_secret
+    - rsoliman.openshift_virt_demos.openshift_virt_manage_vm_template

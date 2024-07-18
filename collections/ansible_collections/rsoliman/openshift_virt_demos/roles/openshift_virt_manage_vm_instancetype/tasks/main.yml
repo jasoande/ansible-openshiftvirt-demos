@@ -18,7 +18,7 @@
               bridge: {}
               model: virtio
       networks:
-        - name: nic-mgt          
+        - name: nic-mgt
           multus:
             networkName: "{{ vm_management_network_name }}"
       volumes:
