@@ -5,4 +5,4 @@
   vars:
     ansible_python_interpreter: /usr/bin/python
   roles:
-  - rsoliman.openshift_virt_demos.openshift_virt_get_vm_info
+    - rsoliman.openshift_virt_demos.openshift_virt_get_vm_info

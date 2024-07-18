@@ -22,8 +22,8 @@
                 storage: "{{ vm_disk_size }}Gi"
     spec:
       architecture: amd64
-      domain: 
-        cpu: 
+      domain:
+        cpu:
           cores: 4
           sockets: 1
           threads: 1
@@ -61,9 +61,8 @@
     wait: true
     wait_sleep: 60
 
-
 - name: Setting Statistics for other Templates
   ansible.builtin.set_stats:
     data:
       vm_name: "{{ vm_name }}"
-      ci_manufacturer: 'OCPVirt'
+      ci_manufacturer: OCPVirt
